@@ -1,0 +1,251 @@
+body{
+    background-image: url(shara\ desert.jpg);
+    background-position: cover;
+    
+}
+.one{
+    display: flex;
+}
+.one-1{
+    display: flex;
+    margin-left: 500px;
+    
+}
+.one-1{
+    margin-left: 900px;
+    margin-bottom: 0px;
+   
+}
+.one-2{
+    display: flex;
+}
+.img-1{
+    widows: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.img-2{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 2px;
+}
+h3{
+    margin-left: 35px;
+    color: white;
+}
+.a-1{
+    text-decoration: none;
+}
+
+.two{
+    display: flex;
+}
+.two-1{
+    margin-top: 80px;
+}
+.two-1{
+    color: white;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+.twoh-1{
+   font-size: 100px;
+   margin-bottom: 0px;
+    
+}
+.twop-1{
+    font-size: 20px;
+    
+}
+.btn-1{
+    width: 180px;
+    height: 40px;
+    font-weight: bolder;
+    border: 0px solid;
+    border-radius: 40px;
+    background-color: white;
+    
+
+}
+.two2-1{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    
+}
+.two2-2{
+    display: flex;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+.img-3{
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.img-4{
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+
+
+}
+.img-5{
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 40px;
+
+}
+.img-6{
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+
+}
+
+.twoone-1{
+    position: relative;
+}
+.twoone{
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+    font-size: 13px;
+   text-shadow: 0px 0px 3px black;
+}
+p{
+    line-height: 30px;
+}
+.twoone-1:hover{
+    margin-top: -20px;
+    transition-duration: 0.5s;
+    
+}
+
+
+@media screen and (max-width:860px) and (min-width:450px){
+    body{
+        background-image: url(shara\ desert.jpg);   
+    }
+    .one{
+        display: flex;
+    }
+    .img-1{
+        widows: 70px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .one-1{
+        margin-left: 300px;
+        margin-bottom: 0px;
+        
+    }
+    .two{
+        flex-direction: column;
+       
+    }
+    .two-1{
+        margin-top: -30px;
+        
+        margin-right: 0px;
+        margin-left: 50px;
+        
+    }
+    .twoh-1{
+        font-size: 40px;
+    }
+    .twop-1{
+        margin-top: 0px;
+    }
+    .two2-1{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .two2-2{
+        flex-direction: column;
+        
+    }
+    .img-3{
+        width: 500px;
+    }
+    .img-4{
+        width: 500px;
+    }
+    .img-5{
+        width: 500px;
+    }
+    .img-6{
+        width: 500px;
+    }
+    .twoone-1{
+        margin-left: 170px;
+        margin-top: 30px;
+       
+        
+    }
+    
+}
+@media screen and (max-width:420px){
+    body{
+        background-image: url(shara\ desert.jpg);
+        background-size: cover;
+    
+
+    }
+
+    .two{
+        flex-direction: column;
+    }
+    .one-1{
+        margin-left: 50px;
+    }
+    .one-2{
+       flex-direction: column;
+       
+       font-size: 15px;
+      margin-left: 150px;
+      line-height: 0px;
+    }
+    .twoone-1{
+        
+        margin-top: 20px;
+    }
+    .twop-1{
+    margin-right: 5px;
+     margin-top: 5px;
+     margin-right: -150px;
+    }
+    .twoh-1{
+        font-size: 40px;
+    }
+    .img-1{
+        margin-left: 5px;     
+    }
+    .img-3,.img-4,.img-5,.img-6{
+        width: 350px;
+        height: 350px;
+    }
+    .two-1{
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+    .two2-1,.two2-2{
+        flex-direction: column;
+        margin-left: 55px;
+        margin-bottom: 0px;
+        
+
+    }
+    .btn-1{
+        width: 200px;
+    }
+    
+}
